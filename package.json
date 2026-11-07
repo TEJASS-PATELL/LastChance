@@ -1,0 +1,10 @@
+{
+  "name": "last-chance-monorepo",
+  "private": true,
+  "workspaces": [
+    "Hunter"
+  ],
+  "scripts": {
+    "build": "cd Hunter && npm install && npm run build"
+  }
+}
