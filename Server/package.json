@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
+    "postinstall": "prisma generate",
+    "build": "prisma generate",
     "db:push": "prisma db push",
     "db:migrate": "prisma migrate deploy"
   },
